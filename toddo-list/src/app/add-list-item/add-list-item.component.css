@@ -1,0 +1,17 @@
+input{
+    font-size: 29px;
+    width: 79.6%;
+    margin: left;
+    border: none;
+}
+button{
+    font-size: 28px;
+    width:20.3%;
+    float:right;
+    background: black;
+    color: white;
+    border: none;
+}
+button:hover {
+    background: red;
+}
