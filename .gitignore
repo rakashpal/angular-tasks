@@ -4,10 +4,12 @@
 /toddo-list/dist
 /toddo-list/tmp
 /toddo-list/out-tsc
-
+/http-routing-task/dist
+/http-routing-task/tmp
+/http-routing-task/out-tsc
 # dependencies
 /toddo-list/node_modules
-
+/http-routing-task/node_modules
 # IDEs and editors
 /.idea
 .project

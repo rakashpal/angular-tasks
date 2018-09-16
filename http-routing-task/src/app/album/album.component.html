@@ -1,0 +1,7 @@
+
+
+      <ul class ="album-name" >
+       <li *ngFor="let album of albumData">
+         <a [routerLink]="['/photo', album.id]"> {{album.title}}<span>&rarr;</span></a>
+         <li>
+       </ul>

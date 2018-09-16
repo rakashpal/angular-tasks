@@ -1,0 +1,7 @@
+<a  [routerLink]="['/home']">Back</a>
+    <ul>
+      <li *ngFor="let photo of albumPhotoData">
+        <img [src]="photo.thumbnailUrl" />
+        <p>{{photo.title}}</p>
+      </li>
+      </ul>
